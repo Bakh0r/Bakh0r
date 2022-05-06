@@ -1,0 +1,61 @@
+body{
+    font-family:fantasy;
+    background-color: pink;
+  
+}
+
+.navbar-brand img{
+    width: 100px;
+}
+
+.navbar-collapse{
+    flex-grow: unset;
+}
+
+.navbar .navbar-nav .nav-link:hover{
+    background-color:coral;
+    color: black;
+}
+
+.navbar .navbar-nav .nav-link:active{
+    background-color: coral;
+    color: coral;
+    font-weight: bold;
+}
+
+.intro{
+    display: flex;
+    align-items: center;
+    height: 60vh;
+}
+
+.intro img{
+    width: 200%;
+    border-radius: 90%;
+    border: 3px solid rebeccapurple;
+    overflow: hidden;
+}
+
+.name{
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+
+.location{
+    font-size: 65px;
+    text-align: center;   
+    color: red; 
+}
+
+.description{
+    font-size: 20px;
+    text-align: center;
+}
+
+@media(max-width:756px) {
+
+}
+
+
